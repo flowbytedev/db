@@ -166,5 +166,8 @@
     <Build Include="Storage\FLOWBYTE_SALES.sql" />
     <Build Include="Security\fb.sql" />
     <Build Include="Security\tmp.sql" />
+    <Build Include="tmp\Tables\variant_temp.sql">
+      <AnsiNulls>Off</AnsiNulls>
+    </Build>
   </ItemGroup>
 </Project>

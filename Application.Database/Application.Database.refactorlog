@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="121a1d29-2e0f-4dce-ac58-0dd896933dbb" ChangeDateTime="02/21/2025 18:56:22">
+    <Property Name="ElementName" Value="[data].[host].[host]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[data].[host]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ip_address" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="34059bb9-e9d8-4cf2-88ea-2266a87d7871" ChangeDateTime="02/21/2025 19:00:50">
+    <Property Name="ElementName" Value="[data].[index].[database]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[data].[index]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="database_name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cdafc250-ef5f-483b-92f0-404f00e67a0f" ChangeDateTime="02/21/2025 19:01:06">
+    <Property Name="ElementName" Value="[data].[table].[database]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[data].[table]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="database_name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="704f7dac-e654-4d66-b722-d75f1cb1f0f2" ChangeDateTime="02/21/2025 19:02:02">
+    <Property Name="ElementName" Value="[data].[index].[table]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[data].[index]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="table_name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2856bb42-cd67-4115-9703-3cb3ca99e620" ChangeDateTime="02/21/2025 19:06:15">
+    <Property Name="ElementName" Value="[data].[column].[table]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[data].[column]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="table_name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="eeada496-657d-4437-b1d9-d726fccda4df" ChangeDateTime="02/21/2025 19:06:47">
+    <Property Name="ElementName" Value="[data].[column].[database]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[data].[column]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="database_name" />
+  </Operation>
+</Operations>

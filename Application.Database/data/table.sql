@@ -8,4 +8,4 @@
 	[row_count]           INT  NOT NULL,
 	[used_space_mb]       DECIMAL(38,20) NULL,
 	[allocated_space_mb]  DECIMAL(38,20) NULL
-)  ON [FLOWBYTE_DIM] TEXTIMAGE_ON [FLOWBYTE_DIM];
+)  ON [FLOWBYTE_DIM];

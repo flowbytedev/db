@@ -178,5 +178,8 @@
     <Build Include="data\table.sql" />
     <Build Include="data\column.sql" />
     <Build Include="data\index.sql" />
+    <Build Include="tmp\Tables\sales_price_current_temp.sql">
+      <AnsiNulls>Off</AnsiNulls>
+    </Build>
   </ItemGroup>
 </Project>

@@ -8,4 +8,4 @@
 	[data_type]           NVARCHAR (200) NOT NULL,
 	[precision]           NVARCHAR (200) NULL,
 	[scale]               NVARCHAR (200) NULL,
-)  ON [FLOWBYTE_DIM] TEXTIMAGE_ON [FLOWBYTE_DIM];
+)  ON [FLOWBYTE_DIM];

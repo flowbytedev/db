@@ -65,6 +65,7 @@
     <Folder Include="tmp\Tables\" />
     <Folder Include="Storage\" />
     <Folder Include="Security\" />
+    <Folder Include="data" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\sales_forecast_by_group_components.sql">
@@ -170,5 +171,12 @@
     <Build Include="tmp\Tables\variant_temp.sql">
       <AnsiNulls>Off</AnsiNulls>
     </Build>
+    <Build Include="data.sql" />
+    <Build Include="data\host.sql" />
+    <Build Include="data\database.sql" />
+    <Build Include="data\database_credentials.sql" />
+    <Build Include="data\table.sql" />
+    <Build Include="data\column.sql" />
+    <Build Include="data\index.sql" />
   </ItemGroup>
 </Project>

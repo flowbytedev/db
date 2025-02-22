@@ -42,4 +42,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="database_name" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="e089812e-5cc6-4893-bbc8-f6138452b874" ChangeDateTime="02/21/2025 19:45:09">
+    <Property Name="ElementName" Value="[dbo].[table_storage_usage].[database]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[table_storage_usage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="database_name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="87077662-226a-4526-9a60-564f6f8e25ba" ChangeDateTime="02/21/2025 19:45:13">
+    <Property Name="ElementName" Value="[dbo].[table_storage_usage].[name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[table_storage_usage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="table_name" />
+  </Operation>
 </Operations>

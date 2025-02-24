@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{b3bbab68-5ac9-406d-b2f7-3c35f50bd615}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -24,6 +24,7 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <Recovery>SIMPLE</Recovery>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -64,6 +65,8 @@
     <Folder Include="tmp\Tables\" />
     <Folder Include="Storage\" />
     <Folder Include="Security\" />
+    <Folder Include="data" />
+    <Folder Include="data\Tables" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\sales_forecast_by_group_components.sql">
@@ -169,5 +172,20 @@
     <Build Include="tmp\Tables\variant_temp.sql">
       <AnsiNulls>Off</AnsiNulls>
     </Build>
+    <Build Include="data.sql" />
+    <Build Include="tmp\Tables\sales_price_current_temp.sql">
+      <AnsiNulls>Off</AnsiNulls>
+    </Build>
+    <Build Include="data\Tables\column.sql" />
+    <Build Include="data\Tables\database.sql" />
+    <Build Include="data\Tables\database_credentials.sql" />
+    <Build Include="data\Tables\host.sql" />
+    <Build Include="data\Tables\index.sql" />
+    <Build Include="data\Tables\table.sql" />
+    <Build Include="data\Tables\table_storage_usage.sql" />
+    <Build Include="data\Tables\index_storage_usage.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Application.Database.refactorlog" />
   </ItemGroup>
 </Project>

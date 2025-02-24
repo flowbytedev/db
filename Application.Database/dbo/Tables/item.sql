@@ -5,6 +5,10 @@
     [description] NVARCHAR (MAX) NULL,
     [brand]       NVARCHAR (255) NULL,
     [cdc_key]     BIGINT         NOT NULL,
+    [created_on] DATETIME NULL, 
+    [modified_on] DATETIME NULL, 
+    [created_by] NVARCHAR(450) NULL, 
+    [modified_by] NVARCHAR(450) NULL, 
     CONSTRAINT [PK_item] PRIMARY KEY CLUSTERED ([company_id] ASC, [item_no] ASC) ON [FLOWBYTE_DIM],
     CONSTRAINT [FK_item_company] FOREIGN KEY ([company_id]) REFERENCES [dbo].[company] ([id])
 ) ON [FLOWBYTE_DIM] TEXTIMAGE_ON [FLOWBYTE_DIM];

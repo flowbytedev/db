@@ -25,7 +25,6 @@
     [amount_ac]              DECIMAL (38, 20) NOT NULL,
     [cost_amount_lc]         DECIMAL (38, 20) NOT NULL,
     [cost_amount_ac]         DECIMAL (38, 20) NOT NULL,
-    CONSTRAINT [PK_transaction] PRIMARY KEY CLUSTERED ([company_id] ASC, [warehouse_code] ASC, [posting_date] ASC, [entry_type] ASC, [document_type] ASC, [document_no] ASC),
     CONSTRAINT [FK_transaction_company] FOREIGN KEY ([company_id]) REFERENCES [dbo].[company] ([id]),
     CONSTRAINT [FK_transaction_variant] FOREIGN KEY ([company_id], [item_no], [variant_code]) REFERENCES [dbo].[variant] ([company_id], [item_no], [variant_code]),
     CONSTRAINT [FK_transaction_warehouse] FOREIGN KEY ([company_id], [warehouse_code]) REFERENCES [dbo].[warehouse] ([company_id], [code])

@@ -186,6 +186,8 @@
     <Build Include="data\Tables\index_storage_usage.sql" />
     <Build Include="tmp\Tables\variant_option_temp.sql" />
     <Build Include="tmp\Tables\variant_option_value_temp.sql" />
+    <Build Include="tmp\Tables\warehouse_temp.sql" />
+    <Build Include="tmp\Tables\transaction_temp.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Application.Database.refactorlog" />

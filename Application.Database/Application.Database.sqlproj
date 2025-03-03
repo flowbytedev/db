@@ -186,10 +186,15 @@
     <Build Include="data\Tables\index_storage_usage.sql" />
     <Build Include="tmp\Tables\variant_option_temp.sql" />
     <Build Include="tmp\Tables\variant_option_value_temp.sql" />
+<<<<<<< HEAD
     <Build Include="data\Tables\data_job.sql" />
     <Build Include="data\Tables\data_job_asset.sql" />
     <Build Include="data\Tables\data_job_run.sql" />
     <Build Include="dbo\Tables\notification.sql" />
+=======
+    <Build Include="tmp\Tables\warehouse_temp.sql" />
+    <Build Include="tmp\Tables\transaction_temp.sql" />
+>>>>>>> d440c8822bdf1ea35195a163d0e02c08de28b0ab
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Application.Database.refactorlog" />

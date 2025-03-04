@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[index_storage_usage]
+﻿CREATE TABLE [data].[index_storage_usage]
 (
 	[date]			      DATETIME NULL,
 	[host]                NVARCHAR (200) NOT NULL,

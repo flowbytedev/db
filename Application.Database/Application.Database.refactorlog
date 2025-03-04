@@ -56,4 +56,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="table_name" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="038aecf0-a097-46ee-9aa2-9b61d3c84d16" ChangeDateTime="02/25/2025 19:21:55">
+    <Property Name="ElementName" Value="[data].[database_credentials].[database_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[data].[database_credentials]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="host" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="70087fc8-2d04-4994-8aa8-fc3b91bc5b28" ChangeDateTime="02/27/2025 12:03:45">
+    <Property Name="ElementName" Value="[dbo].[notification].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[notification]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id" />
+  </Operation>
 </Operations>

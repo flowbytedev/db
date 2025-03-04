@@ -13,6 +13,7 @@
     [temp_table_name]          NVARCHAR (255) NULL,
     [is_incremental]           TINYINT        DEFAULT ((0)) NOT NULL,
     [incremental_column]       NVARCHAR (255) NULL, 
-    [sequence] INT NULL
+    [sequence] INT NULL, 
+    [is_deleted] TINYINT NOT NULL DEFAULT ((0))
 ) ON [FLOWBYTE_DIM] TEXTIMAGE_ON [FLOWBYTE_DIM];
 

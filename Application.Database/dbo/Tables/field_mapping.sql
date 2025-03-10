@@ -1,10 +1,12 @@
 ﻿CREATE TABLE [dbo].[field_mapping] (
     [source_host]           NVARCHAR (255) NOT NULL,
     [source_database]       NVARCHAR (255) NOT NULL,
+    [source_schema]         NVARCHAR(20) NULL,
     [source_table]          NVARCHAR (255) NOT NULL,
     [source_column]         NVARCHAR (255) NOT NULL,
     [destination_host]      NVARCHAR (255) NOT NULL,
     [destination_database]  NVARCHAR (255) NOT NULL,
+    [destination_schema]    NVARCHAR(20) NULL,
     [destination_table]     NVARCHAR (255) NOT NULL,
     [destination_column]    NVARCHAR (255) NOT NULL,
     [source_data_type]      NVARCHAR (255) NOT NULL,

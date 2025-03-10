@@ -192,6 +192,9 @@
     <Build Include="dbo\Tables\notification.sql" />
     <Build Include="tmp\Tables\warehouse_temp.sql" />
     <Build Include="tmp\Tables\transaction_temp.sql" />
+    <Build Include="dbo\Tables\loyalty_group.sql" />
+    <Build Include="dbo\Tables\subscription.sql" />
+    <Build Include="dbo\Tables\customer_subscription.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Application.Database.refactorlog" />

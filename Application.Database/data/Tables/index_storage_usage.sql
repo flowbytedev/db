@@ -5,7 +5,7 @@
 	[database]            NVARCHAR (200) NOT NULL,
 	[schema]              NVARCHAR (200) NOT NULL,
 	[table]               NVARCHAR (200) NOT NULL,
-	[name]                NVARCHAR (200) NOT NULL,
+	[name]                NVARCHAR (200) NULL,
 	[columns]             NVARCHAR (200) NULL,
 	[type]                NVARCHAR (200) NULL,
 	[used_space_mb]       DECIMAL(38,20) NULL,

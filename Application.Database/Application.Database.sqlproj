@@ -195,6 +195,7 @@
     <Build Include="dbo\Tables\loyalty_group.sql" />
     <Build Include="dbo\Tables\subscription.sql" />
     <Build Include="dbo\Tables\customer_subscription.sql" />
+    <Build Include="data\Tables\data_job_trigger.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Application.Database.refactorlog" />

@@ -197,6 +197,12 @@
     <Build Include="dbo\Tables\customer_subscription.sql" />
     <Build Include="data\Tables\data_job_trigger.sql" />
     <Build Include="data\Tables\query_detail.sql" />
+    <Build Include="data\Tables\workspace.sql" />
+    <Build Include="data\Tables\dataset.sql" />
+    <Build Include="data\Tables\report_user.sql" />
+    <Build Include="data\Tables\dataset_user.sql" />
+    <Build Include="data\Tables\report.sql" />
+    <Build Include="data\Tables\workspace_user.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Application.Database.refactorlog" />

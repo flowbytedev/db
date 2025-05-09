@@ -9,6 +9,6 @@
     [dataset_id]       NVARCHAR(500) NOT NULL,
 
     CONSTRAINT [PK_report] PRIMARY KEY ([id], [workspace_id], [application]) ON [FLOWBYTE_DIM],
-	CONSTRAINT [FK_report_table] FOREIGN KEY ([workspace_id],[application]) REFERENCES [data].[dataset]([workspace_id], [application])
+	CONSTRAINT [FK_report_dataset] FOREIGN KEY ([dataset_id], [workspace_id],[application]) REFERENCES [data].[dataset]([id], [workspace_id], [application])
 
 ) ON [FLOWBYTE_DIM];

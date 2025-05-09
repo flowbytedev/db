@@ -9,6 +9,6 @@
 	[created_on]       DATETIME NOT NULL,
 
     CONSTRAINT [PK_dataset] PRIMARY KEY ([id], [workspace_id], [application]) ON [FLOWBYTE_DIM],
-	CONSTRAINT [FK_dataset_table] FOREIGN KEY ([workspace_id],[application]) REFERENCES [data].[workspace]([id], [application])
+	CONSTRAINT [FK_dataset_workspace] FOREIGN KEY ([workspace_id],[application]) REFERENCES [data].[workspace]([id], [application])
 
 ) ON [FLOWBYTE_DIM];

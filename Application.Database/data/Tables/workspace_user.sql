@@ -2,7 +2,7 @@
 (
 	[workspace_id]     NVARCHAR(500) NOT NULL,
 	[application]      NVARCHAR(500) NOT NULL,
-	[e-mail]           NVARCHAR(MAX) NOT NULL,
+	[e-mail]           NVARCHAR(500) NOT NULL,
 	[user_type]        NVARCHAR(500) NOT NULL,
 	[name]             NVARCHAR(500) NOT NULL,
 	[role]             NVARCHAR(500) NOT NULL,
